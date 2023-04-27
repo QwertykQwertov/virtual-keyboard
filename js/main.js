@@ -1,3 +1,3 @@
-import {arrSymbols} from '/assets/js/keybordSymbols.js'
+import {arrSymbols} from '/js/modules/keybordSymbols.js'
 
 console.log(arrSymbols)
