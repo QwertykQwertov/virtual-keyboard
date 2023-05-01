@@ -25,7 +25,7 @@
   line-height: 40px;
   text-align: center;
   color: #ffffff;
-  background: #444444;
+  background: $key-bg;
   border-radius: $border-radius;
   cursor: pointer;
   user-select: none;
@@ -58,7 +58,7 @@
 .Tab,
 .MetaLeft {
   font-weight: 600;
-  background-color: #222222;
+  background-color: $big-key-bg;
 }
 
 .keyboard .Tab {

@@ -178,6 +178,10 @@ template {
   display: none;
 }
 
+body {
+  background: #a5cba5;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -192,7 +196,14 @@ template {
   margin: 10px auto 10px;
   padding: 10px;
   font-size: 18px;
-  color: #444444;
+  border-radius: 25px;
+  background: #a2ff9c;
+  border-color: #0dcf00;
+  outline: none;
+  display: inline-block;
+}
+.textarea:focus-visible {
+  outline: 2px solid #0dcf00;
 }
 
 .keyboard {
@@ -202,7 +213,7 @@ template {
   padding-left: 0;
   padding-bottom: 0;
   background: #a2ff9c;
-  border: 3px solid #f97a7a;
+  border: 3px solid #0dcf00;
   border-radius: 25px;
 }
 
@@ -222,7 +233,7 @@ template {
   line-height: 40px;
   text-align: center;
   color: #ffffff;
-  background: #444444;
+  background: #5a895a;
   border-radius: 25px;
   cursor: pointer;
   user-select: none;
@@ -255,7 +266,7 @@ template {
 .Tab,
 .MetaLeft {
   font-weight: 600;
-  background-color: #222222;
+  background-color: #305830;
 }
 
 .keyboard .Tab {
