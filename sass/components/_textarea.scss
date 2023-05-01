@@ -1,0 +1,16 @@
+.textarea {
+  display: block;
+  width: 700px;
+  height: 200px;
+  margin: 10px auto 10px;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 25px;
+  background: $keyboard-bg;
+  border-color: $keyboard-border;
+  outline: none;
+  display: inline-block;
+  &:focus-visible {
+    outline: 2px solid $keyboard-border;
+  }
+}
