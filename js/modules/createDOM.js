@@ -8,7 +8,7 @@ export function createDOM() {
 
   // Создание заголовка
   const title = document.createElement("h1");
-  title.textContent = "RSS Виртуальная клавиатура"
+  title.textContent = "Виртуальная клавиатура"
   title.classList.add("title")
   containerDiv.appendChild(title);
 
