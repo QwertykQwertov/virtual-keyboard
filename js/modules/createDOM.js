@@ -34,7 +34,7 @@ export function createDOM() {
 
   // Создание инструкции для смены раскладки
   const instruction = document.createElement("p")
-  instruction.innerText = "Для переключения языка комбинация: левыe ctrl + alt"
+  instruction.innerText = "Для переключения языка комбинация: ctrl + alt"
   instruction.classList.add("language")
   containerDiv.appendChild(instruction)
 
